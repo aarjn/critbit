@@ -9,6 +9,16 @@ pub struct InternalNode {
     pub right: Node,
 }
 
+pub struct CritBitTree {
+    root: Option<Node>,
+}
+
+impl CritBitTree {
+    pub fn new() -> Self {
+        CritBitTree { root: None }
+    }
+}
+
 fn main() {
     println!("Hello, world!");
 }
